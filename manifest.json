@@ -1,0 +1,27 @@
+{
+    "name": "Gritty Manifest V3 boilerplate",
+    "description": "Simple boilerplate for chrome extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage", 
+        "activeTab", 
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html", 
+        "default_icon": {
+            "16": "/src/images/icon.png",
+            "32": "/src/images/icon.png",
+            "48": "/src/images/icon.png",
+            "128": "/src/images/icon.png"
+        }
+    },
+    "icons": {
+        "16": "/src/images/icon.png",
+        "32": "/src/images/icon.png",
+        "48": "/src/images/icon.png",
+        "128": "/src/images/icon.png"
+    }
+}
+
